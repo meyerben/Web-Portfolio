@@ -72,11 +72,13 @@ nav ul li {
     list-style: none;
 	float: left;
     text-align: center;
+    border-right: 2px;
+
     width: 14.285%; /* fallback for non-calc() browsers */
     width: calc(100% / 7);
     box-sizing: border-box;
 }
  
-li#temp {
+.temp {
 	font-style: italic
 	}
