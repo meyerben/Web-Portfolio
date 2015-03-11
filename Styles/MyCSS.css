@@ -54,6 +54,7 @@ background: white;
 }
 
 nav {
+    alignment-adjust: middle;
     width: 99%;
     background: white;
     border: 5px solid #5C94BF;
@@ -73,7 +74,6 @@ nav ul li {
 	float: left;
     text-align: center;
     border-right: 2px;
-
     width: 14.285%; /* fallback for non-calc() browsers */
     width: calc(100% / 7);
     box-sizing: border-box;
@@ -82,3 +82,7 @@ nav ul li {
 .temp {
 	font-style: italic
 	}
+
+#overview:first-letter {
+   font-size: 2em; 
+}
