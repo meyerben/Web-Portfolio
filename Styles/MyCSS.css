@@ -4,8 +4,7 @@ body {
     font-family: Courier New;
     color: black;
     text-align: left;
-    background-image: url(http://pldh.net/media/gallery/the493/pelipper.jpg)
-    width: 1000px
+    background-image: url(http://pldh.net/media/gallery/the493/pelipper.jpg);
 	}
 h1 {
     font-size: 2em;
@@ -81,9 +80,19 @@ nav ul li {
 }
  
 .temp {
+    width: 50%;
 	font-style: italic
 	}
 
-#overview:first-letter {
+div:first-letter {
    font-size: 2em; 
+}
+
+ .info {
+    alignment-adjust: middle;
+    float: left;
+}
+
+#container {
+    
 }
