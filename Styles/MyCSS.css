@@ -24,6 +24,7 @@ div {
 	border-style: solid;
 	border-radius: 10px;
 	background: white;
+	margin-right: 1em;
 	}
 p {
 	font-size: 1em;
@@ -91,8 +92,6 @@ div:first-letter {
  .info {
     alignment-adjust: middle;
     float: left;
-}
-
-#container {
-    
+    width: 522px;
+    height: 170px;
 }
